@@ -6,3 +6,10 @@
     height: 100%;
     cursor: url(img/cursor.png), auto;
 }
+
+#title {
+    position: fixed;
+    top: -16px;
+    right: 1750px;
+	text-shadow: 3px 2px 5px #000;
+}
