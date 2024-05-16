@@ -9,7 +9,23 @@
 </head>
 
 <body>
-  <h1 id="title">Battle Jesus</h1>
-  <button id="contact">Contact</button>
+  <button id="contact", role="button", onclick="window.location.href='https://www.discord.com/users/1043451405966524426'">
+    Contact
+  </button>
+
+  <button id="bulletbutton">
+    <span class="text">ATEŞLE !!!</span>
+    <span class="bullet"></span>
+  </button>
+  <script>
+    document.getElementById("bulletbutton").addEventListener("click", function() {
+      this.classList.toggle("clicked");
+    });
+  </script>
 </body>
+
+<body>
+
+</body>
+
 </html>
