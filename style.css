@@ -1,13 +1,6 @@
 html {
     cursor: url(), auto;
-    background-color: #ffffff;
-}
-
-#contact {
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    cursor: help;
+    background-color: #212121;
 }
 
 #title {
@@ -70,3 +63,4 @@ html {
     left: 1170%;
     transition: all 2s;
 }
+
